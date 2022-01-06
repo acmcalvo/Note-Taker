@@ -16,4 +16,4 @@ require("./routes/htmlRoutes")(app);
 
 // Set a  Port
 const port = process.env.PORT || 3000;
-app.listen(port, () => console.log('App listening on PORT: ${port}...'));
+app.listen(port, () => console.log(`App listening on PORT ${port}...`));
