@@ -1,12 +1,18 @@
+// DEPENDENCIES
+
 const path = require("path");
+const router = require("express").Router();
 
-module.exports = function (app) {
-  app.get("/notes", function (req, res) {
-    res.sendFile(path.join(__dirname, '../public/notes.html'));
-  });
 
-  // If no matching route is found default to home
-  app.get("*", function (req, res) {
-    res.sendFile(path.join(__dirname, '\../public/index.html'));
-  });
-};
+
+// Get notes.html if the url is localhost:3000/notes
+router.get("/notes", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/notes.html"));
+});
+
+// If no matching route is found default to home
+router.get("*", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/index.html"));
+});
+
+module.exports = router;
