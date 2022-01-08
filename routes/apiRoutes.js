@@ -1,28 +1,37 @@
-// Dependencies
-const router = require("express").Router();
-const store = require("./../db/store");
+const fs = require('fs');
+const path = require('path');
 
-// routes
+const notes = require('../db/db.json');
 
-router.get("/notes", function (req, res) {
-    store
-        .getNotes()
-        .then(notes => res.json(notes))
-        .catch(err => res.status(500).json(err))
-});
 
-router.post("/notes", function (req, res) {
-    store
-        .addNote(req.body)
-        .then((notes) => res.json(notes))
-        .catch(err => res.status(500).json(err))
-});
+module.exports = (app) => {
 
-router.delete("/notes/:title", function (req, res) {
-    store
-        .deleteNotes(req.params.title)
-        .then(() => res.json({ ok: true }))
-        .catch(err => res.status(500).json(err))
-});
+   
+    
+    app.get('/api/notes', (req, res) => res.json(notes));
 
-module.exports = router;
+    // post new note to server
+    app.post('/api/notes', (req, res) => {    
+        let id = notes.length + 1
+        console.log(id);
+        req.body.id = parseInt(id);
+        
+        notes.push(req.body);
+        fs.writeFile(path.join(__dirname, '../db/db.json'), 'utf8', (err, jsonString => {
+            if (err) {
+                console.log(err)
+                return;
+            }
+            res.json(JSON.parse(jsonString));
+        }));
+    });
+  
+        app.delete('/api/notes/:id', (req, res) => {
+        let id = notes.length - 1
+        req.body.id = parseInt(id);
+        notes.pop(req.params.body);
+        res.json({ ok: true });
+     
+    });
+
+}; 
