@@ -10,7 +10,7 @@ module.exports = (app) => {
     let id = notes.length + 1;
     console.log(id);
     req.body.id = parseInt(id);
-
+    console.log(req.body);
     notes.push(req.body);
     fs.writeFile(
       path.join(__dirname, "../db/db.json"),
@@ -25,7 +25,6 @@ module.exports = (app) => {
       })
     );
   });
-
   app.delete("/api/notes/:id", (req, res) => {
     let id = notes.length - 1;
     req.body.id = parseInt(id);
