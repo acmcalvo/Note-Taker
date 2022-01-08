@@ -6,7 +6,7 @@ const notes = require("../db/db.json");
 module.exports = (app) => {
   app.get("/api/notes", (req, res) => res.json(notes));
 
-  app.post("/api/notes", (req, res) => {
+  app.post('/api/notes', (req, res) => {
     let id = notes.length + 1;
     console.log(id);
     req.body.id = parseInt(id);
@@ -25,7 +25,7 @@ module.exports = (app) => {
       })
     );
   });
-  app.delete("/api/notes/:id", (req, res) => {
+  app.delete('/api/notes/:id', (req, res) => {
     let id = notes.length - 1;
     req.body.id = parseInt(id);
     notes.pop(req.params.body);
