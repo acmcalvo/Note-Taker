@@ -12,9 +12,9 @@
 
   ## Description
   
- In this week we created an application called Note Taker that can be used to write, saves and deleted notes. We use *Express.js* back end and will save and retrive  note data from JSON file.
+In this week, we created an application called Note Taker that can be used to write saves and deleted notes. We use the Express.js backend to save and retrieve note data from JSON files.
  
- This screen shop is for started page
+ This screenshop is for started page
 
 ![Screen Shot 2022-01-09 at 9 28 23 PM](https://user-images.githubusercontent.com/91921941/148711928-b63edf9a-4521-4e40-8151-22ee6586ad3c.png)
 
