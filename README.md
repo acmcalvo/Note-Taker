@@ -5,9 +5,9 @@
   ## Table of Contents
   * [Description](#description)
   * [License](#license)
-  * [Installation](#installation)
-  * [Tests](#run)
-  * [Repository](#usingRepo)
+  * [Technologies Used](#technologiesUsed)
+  * [Tests](#Test)
+  * [Repository](#repository)
   * [Contributing](#contributing)
   
   
@@ -22,20 +22,31 @@ https://user-images.githubusercontent.com/91921941/148711572-8e02ba87-d65d-4a59-
   ## Description
   
  In this week we created an application called Note Taker that can be used to write, saves and deleted notes. We use *Express.js* back end and will save and retrive  note data from JSON file.
+ 
+ This screen shop is for started page
 
- <img width="1272" alt="Screen Shot 2021-12-26 at 9 02 33 PM" src="https://user-images.githubusercontent.com/91921941/147427350-22482b68-5603-491d-a2ef-7ee2257c0b5d.png">
+![Screen Shot 2022-01-09 at 9 28 23 PM](https://user-images.githubusercontent.com/91921941/148711928-b63edf9a-4521-4e40-8151-22ee6586ad3c.png)
+
+Second screen shot is went I input information notice on the top right corner the save icon show up.
+
+![Screen Shot 2022-01-09 at 9 29 50 PM](https://user-images.githubusercontent.com/91921941/148712014-6fbcfa33-57e5-47d0-b72d-c44601d2d88b.png)
+
+Third screen shot is went I saved the note, notice that save note is now on the left side and deleted icon is on.
+
+![Screen Shot 2022-01-09 at 9 33 07 PM](https://user-images.githubusercontent.com/91921941/148712162-b955afc0-bf10-4e79-ace6-4e19fe69cfed.png)
   
   ## License 
   This project is license under MIT License
 
-  ## Installation
+  ## Technologies Used
   
+  * HTML
+  * CSS
+  * JavaScript
+  * Node.js
+  * Express (npm package)
+  * nodemon (npm package)
  
-  ## Tests
-  There are currently test for this application, I created  subfolder call __test___ for each Team Member
-
-   <img width="725" alt="testpass" src="https://user-images.githubusercontent.com/91921941/147427860-52f9d152-0868-4858-81bf-0b6eabf3140a.png">
-
   ## Contributing 
   Contributions are welcome. If you want to make a major change, please open the issue page on Github. Thanks
 
