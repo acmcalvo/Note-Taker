@@ -44,7 +44,7 @@ module.exports = (app) => {
         }
       });
 
-      fs.writeFile('./db/db.json', JSON.stringify(notes), function (err) {
+      fs.writeFile('./db/db.json', JSON.stringify(notes), (err) => {
         if (err) throw err;
       });
     });
