@@ -31,7 +31,7 @@ Third screen shot is went I saved the note, notice that save note is now on the 
   
   https://user-images.githubusercontent.com/91921941/148711572-8e02ba87-d65d-4a59-94e9-04f046722297.mp4
   
-  Please use this link if you issues:
+  If you have trouble watching the demo video, please use this link:
   https://watch.screencastify.com/v/bHBIai3AFTNdsumrxfAA
   
   ## Technologies Used
