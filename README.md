@@ -4,21 +4,12 @@
  
   ## Table of Contents
   * [Description](#description)
+  * [Presentation](#presentation)
   * [License](#license)
   * [Technologies Used](#technologiesUsed)
-  * [Tests](#Test)
   * [Repository](#repository)
   * [Contributing](#contributing)
-  
-  
-  ## Presentation
-  
 
-https://user-images.githubusercontent.com/91921941/148711572-8e02ba87-d65d-4a59-94e9-04f046722297.mp4
-  
-  Please use this link if you issues:
-  https://watch.screencastify.com/v/bHBIai3AFTNdsumrxfAA
-  
   ## Description
   
  In this week we created an application called Note Taker that can be used to write, saves and deleted notes. We use *Express.js* back end and will save and retrive  note data from JSON file.
@@ -35,17 +26,30 @@ Third screen shot is went I saved the note, notice that save note is now on the 
 
 ![Screen Shot 2022-01-09 at 9 33 07 PM](https://user-images.githubusercontent.com/91921941/148712162-b955afc0-bf10-4e79-ace6-4e19fe69cfed.png)
   
-  ## License 
-  This project is license under MIT License
-
-  ## Technologies Used
   
+  ## Presentation
+  
+  https://user-images.githubusercontent.com/91921941/148711572-8e02ba87-d65d-4a59-94e9-04f046722297.mp4
+  
+  Please use this link if you issues:
+  https://watch.screencastify.com/v/bHBIai3AFTNdsumrxfAA
+  
+   ## Technologies Used
   * HTML
   * CSS
   * JavaScript
   * Node.js
   * Express (npm package)
   * nodemon (npm package)
+
+
+  ## Repository
+  https://github.com/acmcalvo/Note-Taker.git
+  
+  ## License 
+  This project is license under MIT License
+
+ 
  
   ## Contributing 
   Contributions are welcome. If you want to make a major change, please open the issue page on Github. Thanks
