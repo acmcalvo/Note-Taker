@@ -2,8 +2,8 @@ const fs = require("fs");
 
 module.exports = (app) => {
   let notes;
-  app.get("/api/notes", (req, res) => {
-    fs.readFile("./db/db.json", (err, data) => {
+  app.get('/api/notes', (req, res) => {
+    fs.readFile('./db/db.json', (err, data) => {
       if (err) throw err;
 
       res.json(JSON.parse(data));
@@ -23,7 +23,7 @@ module.exports = (app) => {
         item.id = 1 + i;
       });
 
-      fs.writeFile("./db/db.json", JSON.stringify(notes), (err) => {
+      fs.writeFile('./db/db.json', JSON.stringify(notes), (err) => {
         if (err) throw err;
       });
     });
