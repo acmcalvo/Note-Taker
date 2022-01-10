@@ -34,7 +34,7 @@ Third screen shot is went I saved the note, notice that save note is now on the 
   Please use this link if you issues:
   https://watch.screencastify.com/v/bHBIai3AFTNdsumrxfAA
   
-  ## Technologies Used
+  ##Technologies Used
   * HTML
   * CSS
   * JavaScript
@@ -47,7 +47,7 @@ Third screen shot is went I saved the note, notice that save note is now on the 
   https://github.com/acmcalvo/Note-Taker.git
   
   and link to Heroku:
-  https://note-taker-acm.herokuapp.com/notes
+  https://note-taker-acm.herokuapp.com/
   
   ## License 
   This project is license under MIT License
