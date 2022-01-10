@@ -16,7 +16,7 @@ In this week, we created an application called Note Taker that can be used to wr
  
  This screenshop is for started page
 
-![Screen Shot 2022-01-09 at 9 28 23 PM](https://user-images.githubusercontent.com/91921941/148711928-b63edf9a-4521-4e40-8151-22ee6586ad3c.png)
+![Screen Shot 2022-01-09 at 9 28 23 PM](https://user-images.githubusercontent.com/91921941/148714026-d0971d78-58ce-4cec-8c40-7292b728dec4.png)
 
 Second screen shot is went I input information notice on the top right corner the save icon show up.
 
