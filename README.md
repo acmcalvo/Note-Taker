@@ -5,9 +5,9 @@
   ## Table of Contents
   * [Description](#description)
   * [Presentation](#presentation)
-  * [License](#license)
   * [Technologies Used](#technologiesUsed)
   * [Repository](#repository)
+  * [License](#license)
   * [Contributing](#contributing)
 
   ## Description
