@@ -31,10 +31,10 @@ module.exports = (app) => {
     res.json(newNote);
   });
 
-  app.delete("/api/notes/:id", (req, res) => {
+  app.delete('/api/notes/:id', (req, res) => {
     let delNoteId = req.params.id;
 
-    fs.readFile("./db/db.json", function (err, data) {
+    fs.readFile('./db/db.json', function (err, data) {
       if (err) throw err;
       let notes = JSON.parse(data);
 
